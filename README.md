@@ -1,3 +1,4 @@
+<img width="1220" height="558" alt="Capturar" src="https://github.com/user-attachments/assets/e9f34b3d-2b56-4180-885b-623e2b2bdd8e" />
 
 # 📡 Pipeline de Análise de Clientes Telecom
 
