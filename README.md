@@ -1,24 +1,26 @@
 
 📡 Pipeline de Análise de Clientes Telecom
-Projeto de portfólio de Engenharia de Dados — pipeline ETL completo com Python, SQL e visualização no Power BI.
-
+Projeto de portfólio de Engenharia de Dados 
+— pipeline ETL completo com Python, SQL e visualização no Power BI.
 
 📌 Sobre o projeto
-Pipeline de dados end-to-end simulando o ambiente de uma operadora de telecomunicações. O projeto cobre todas as etapas de uma pilha moderna de dados: aquisição, limpeza, modelagem em camadas e visualização de KPIs operacionais.
-
+Pipeline de dados end-to-end simulando o ambiente de uma operadora de telecomunicações. 
+O projeto cobre todas as etapas de uma pilha moderna de dados: aquisição, limpeza, modelagem em camadas e visualização de KPIs operacionais.
 
 🏗️ Arquitetura
 [Excel Bruto]  →  [Python: ETL]  →  [SQLite: Silver/Gold]  →  [Power BI: Dashboard]
    Bronze               ↓                    ↓
                   limpeza_clientes.py   modelagem_gold.sql
                   
-
 Camadas de dados (Medalhão Arquitetura)
 Camada	Arquivo	Descrição
 
-🥉 Bronze	bronze_clientes_bruto.xlsx	Dados brutos com problemas de qualidade simulados
-🥈 Prata	silver_clientes_limpo.xlsx	Dados limpos e graduados
-🥇 Ouro	gold_kpis_telecom.xlsx/telecom_clientes.db	KPIs agregados por região, plano e canal
+🥉 Bronze	bronze_clientes_bruto.xlsx	
+Dados brutos com problemas de qualidade simulados
+🥈 Prata	silver_clientes_limpo.xlsx	
+Dados limpos e graduados
+🥇 Ouro	gold_kpis_telecom.xlsx/telecom_clientes.db
+KPIs agregados por região, plano e canal
 
 📊 Painel — KPIs principais
 indica	Valentia
@@ -49,11 +51,11 @@ Excel — camadas Bronze e Prata como formato de entrega
  
 🔍 Problemas de qualidade tratados (Bronze → Prata)
 
-Problema	Quantidade tratada
+Problema Quantidade tratada
 Duplicatas	30
 Dados inválidos corrigidos	46
-NPS fora do intervalo (>10)	47
-Ticket com prefixo "R$" (texto)	~30
+NPS fora do intervalo (>10) 47
+Ticket com prefixo "R$" (texto) ~30
 Nulos preenchidos com mediana	~115
 Status inconsistente padronizado	~60
 
