@@ -113,7 +113,6 @@ python limpeza_clientes.py
 **Filipe**
 Analista | Engenharia de Dados | Telecom
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://linkedin.com/in/seu-perfil)
 
 
 ---
