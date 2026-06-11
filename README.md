@@ -41,6 +41,7 @@ Excel — camadas Bronze e Prata como formato de entrega
 📁 Estrutura do repositório
 
 📦 telecom-pipeline/
+
  ┣ 📄 bronze_clientes_bruto.xlsx   # Dados brutos (1.030 linhas com problemas)
  ┣ 📄 silver_clientes_limpo.xlsx   # Dados limpos + log de limpeza
  ┣ 📄 gold_kpis_telecom.xlsx       # KPIs agregados (4 abas)
@@ -60,6 +61,7 @@ Nulos preenchidos com mediana	~115
 Status inconsistente padronizado	~60
 
 🧩 Modelagem Gold (Views SQL)
+
 silver_clientes
     ├── gold_kpis_por_regiao       → receita, churn e NPS por região
     ├── gold_kpis_por_plano        → comparativo entre planos
