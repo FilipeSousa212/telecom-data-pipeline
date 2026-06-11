@@ -114,7 +114,7 @@ python limpeza_clientes.py
 Analista | Engenharia de Dados | Telecom
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://linkedin.com/in/seu-perfil)
-[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)](https://github.com/seu-usuario)
+
 
 ---
 
