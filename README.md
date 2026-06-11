@@ -118,4 +118,3 @@ Analista | Engenharia de Dados | Telecom
 
 ---
 
-*Projeto desenvolvido como portfólio de Engenharia de Dados — dados 100% simulados.*
