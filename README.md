@@ -1,6 +1,6 @@
 Pipeline de Análise de Clientes Telecom
 Projeto de portfólio de Engenharia de Dados 
-— pipeline ETL completo com Python, SQL e visualização no Power BI.
+pipeline ETL completo com Python, SQL e visualização no Power BI.
 
 Sobre o projeto
 Pipeline de dados end-to-end simulando o ambiente de uma operadora de telecomunicações. 
